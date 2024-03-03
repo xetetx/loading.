@@ -1,0 +1,21 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000; /* Consider changing the background color as needed */
+}
+
+.logo {
+    color: #FFF; /* Change the color as needed */
+    font-size: 2rem; /* Adjust the size as needed */
+    font-weight: bold;
+    animation: spin infinite 10s linear; /* Adjust the speed as needed */
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
